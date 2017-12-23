@@ -80,11 +80,11 @@ deftype Fake
 
   def each(&block)
     i = 0
-    
+
     while i < 3
       block(i)
       i += 1
-    end 
+    end
 
     nil
   end
